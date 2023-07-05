@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-card">
+      <div class="main-head">
+        <div class="head">
+          <span><b>ROCK</b></span>
+          <span><b>PAPER</b></span>
+          <span><b>SCISSORS</b></span>
+        </div>
+        <!-- <div class="score">
+          <h4>
+            User:<span id="user-score"><b></b></span>
+          </h4>
+          <h4>
+            Computer:<span id="comp-score"><b></b></span>
+          </h4>
+        </div> -->
+      </div>
+      <div class="button">
+        <button onclick="playGame('rock')">
+          <img class="rock" src="grabbing.png" />
+        </button>
+        <button onclick="playGame('paper')">
+          <img class="paper" src="palm-of-hand.png" />
+        </button>
+        <button onclick="playGame('scissors')">
+          <img class="scissors" src="scissors.png" />
+        </button>
+      </div>
+      <div class="choosing">
+        <h4>
+          You choose:<span id="user-choose"><b></b></span>
+        </h4>
+        <br />
+        <h4>
+          Computer choose:<span id="comp-choose"><b></b></span>
+        </h4>
+        <br />
+        <!-- <p class="result" id="game-result"><b>You Win</b></p> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
